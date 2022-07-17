@@ -1,5 +1,5 @@
 version := "0.1"
-package-manager := `just --justfile .select-package-manager.just`
+package-manager := `just --justfile recipes/select-package-manager.just`
 
 setmeup:
     #!/usr/bin/env sh
